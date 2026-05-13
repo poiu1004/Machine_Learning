@@ -1,0 +1,22 @@
+# 10-Day Realistic Project Plan
+
+- `[x]` DAY 1: 프로젝트 기초 환경 구축 및 데이터셋 준비
+    - `[x]` 프로젝트 디렉토리 생성
+    - `[x]` `requirements.txt` 및 기본 문서 작성
+    - `[x]` 데이터셋(CASP Decoy) 확보 및 `data/raw/` 배치 및 압축 해제 완료
+- `[x]` DAY 2: Feature Engineering 파이프라인 구축 (PDB 파싱)
+    - `[x]` PDB 파싱 및 RMSD 라벨 맵핑 스크립트 작성 (`extract_features.py`)
+    - `[x]` Feature 추출 스크립트 실행 및 결과물(`features.csv`) 확인
+- `[x]` DAY 3: Baseline 모델 (RF, SVM) 파이프라인
+    - `[x]` 교차 타겟 누수 방지(Target-level Split) 훈련 스크립트 작성 (`baseline.py`)
+    - `[x]` 베이스라인 모델 학습 및 Feature Importance 도출 완료
+- `[x]` DAY 4~5: PointNet 모델 구조 구현
+    - `[x]` PyTorch 커스텀 Dataset (PDB -> Point Cloud 변환 및 패딩) 구현
+    - `[x]` PointNet 분류기 아키텍처 구현 (`pointnet.py`)
+- `[x]` DAY 6: PointNet 학습 및 튜닝
+    - `[x]` Target-level Split (1hdd-C 제외) 학습 파이프라인 구현
+    - `[x]` 모델 훈련 및 검증 루프 작성, ROC-AUC 측정
+- `[ ]` DAY 7: Feature Importance 등 정량 분석
+- `[ ]` DAY 8: Misclassification 심층 분석
+- `[ ]` DAY 9: 시각화 (ROC, t-SNE 등)
+- `[ ]` DAY 10: 최종 보고서 및 발표 정리
