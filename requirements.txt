@@ -1,9 +1,19 @@
-numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
-biopython
-torch
-scipy
-tqdm
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+seaborn>=0.12
+
+# Machine learning (lecture-scope pipeline)
+scikit-learn>=1.4
+xgboost>=2.0
+
+# PDB parsing (feature extraction)
+biopython>=1.81
+
+# Report building
+python-docx>=1.1
+
+# Utilities
+tqdm>=4.65

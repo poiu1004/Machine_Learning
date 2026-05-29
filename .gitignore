@@ -1,11 +1,41 @@
+# Raw data (too large for git)
 data/raw/
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
 .env
 .venv
 venv/
 env/
+
+# Notebooks
 .ipynb_checkpoints/
+
+# Archives
 *.tar.gz
 *.tgz
 *.zip
+
+# Large model checkpoints (kept locally / in archive)
+*.pth
+*.pt
+*.h5
+*.onnx
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Word/docx lock files (when the user has the report open)
+~$*.docx

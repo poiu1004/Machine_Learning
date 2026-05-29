@@ -10,7 +10,7 @@ from tqdm import tqdm
 
 warnings.simplefilter('ignore', BiopythonWarning)
 
-DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", "raw", "dd", "multiple", "fisa"))
+DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", "raw", "dd", "multiple", "dd", "multiple", "fisa"))
 PROCESSED_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", "processed"))
 
 def parse_rmsds(rmsd_file):

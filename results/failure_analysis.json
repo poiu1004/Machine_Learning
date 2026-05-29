@@ -1,0 +1,121 @@
+{
+  "scenario": "B (target-level: train=2cro+4icb, test=1hdd-C)",
+  "split_sizes": {
+    "train": 660,
+    "val_skipped": null,
+    "test_total": 185
+  },
+  "rmsd_summary": {
+    "n_misclassified_stable": 40,
+    "rmsd_min": 0.0,
+    "rmsd_max": 3.97,
+    "rmsd_mean": 3.504275,
+    "rmsd_median": 3.6414999999999997,
+    "near_threshold_fraction": 0.925
+  },
+  "feature_range_check": {
+    "rg": {
+      "train_stable_n": 2,
+      "train_stable_values": [
+        10.065901390003244,
+        11.321472070891383
+      ],
+      "train_stable_min": 10.065901390003244,
+      "train_stable_max": 11.321472070891383,
+      "test_stable_n": 40,
+      "test_stable_min": 11.025099547776302,
+      "test_stable_max": 12.307327454547757,
+      "test_stable_mean": 11.523349949595476,
+      "test_mean_outside_train_range": true
+    },
+    "mean_dist": {
+      "train_stable_n": 2,
+      "train_stable_values": [
+        13.50612730113023,
+        15.098499721559303
+      ],
+      "train_stable_min": 13.50612730113023,
+      "train_stable_max": 15.098499721559303,
+      "test_stable_n": 40,
+      "test_stable_min": 14.600946791411024,
+      "test_stable_max": 16.38798535835198,
+      "test_stable_mean": 15.343945874731656,
+      "test_mean_outside_train_range": true
+    },
+    "std_dist": {
+      "train_stable_n": 2,
+      "train_stable_values": [
+        4.836899630138657,
+        5.639572855361094
+      ],
+      "train_stable_min": 4.836899630138657,
+      "train_stable_max": 5.639572855361094,
+      "test_stable_n": 40,
+      "test_stable_min": 5.555447408683241,
+      "test_stable_max": 6.307473078144225,
+      "test_stable_mean": 5.904962334122394,
+      "test_mean_outside_train_range": true
+    },
+    "clash_count": {
+      "train_stable_n": 2,
+      "train_stable_values": [
+        0.0,
+        0.0
+      ],
+      "train_stable_min": 0.0,
+      "train_stable_max": 0.0,
+      "test_stable_n": 40,
+      "test_stable_min": 0.0,
+      "test_stable_max": 0.0,
+      "test_stable_mean": 0.0,
+      "test_mean_outside_train_range": false
+    },
+    "density": {
+      "train_stable_n": 2,
+      "train_stable_values": [
+        0.0070979518420603,
+        0.0044603699704491
+      ],
+      "train_stable_min": 0.0044603699704491,
+      "train_stable_max": 0.0070979518420603,
+      "test_stable_n": 40,
+      "test_stable_min": 0.0026015279162825,
+      "test_stable_max": 0.0050108074724627,
+      "test_stable_mean": 0.003505400758780742,
+      "test_mean_outside_train_range": true
+    },
+    "n_residues": {
+      "train_stable_n": 2,
+      "train_stable_values": [
+        65.0,
+        76.0
+      ],
+      "train_stable_min": 65.0,
+      "train_stable_max": 76.0,
+      "test_stable_n": 40,
+      "test_stable_min": 57.0,
+      "test_stable_max": 57.0,
+      "test_stable_mean": 57.0,
+      "test_mean_outside_train_range": true
+    }
+  },
+  "n_ood_features_of_6": 5,
+  "ood_note": "Test Stable mean falls OUTSIDE the train-stable [min, max] range for the marked features.",
+  "size_summary": {
+    "train_stable_n_residues_unique": [
+      65,
+      76
+    ],
+    "test_stable_n_residues_unique": [
+      57
+    ],
+    "train_stable_rg_range": [
+      10.065901390003244,
+      11.321472070891383
+    ],
+    "test_stable_rg_range": [
+      11.025099547776302,
+      12.307327454547757
+    ]
+  }
+}
