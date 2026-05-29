@@ -1,6 +1,6 @@
 # Detection of Structural Defects in Designed Protein Structures
 
-본 저장소는 [2026-1] Machine Learning Term Project의 소스 코드와 산출물을 포함합니다.
+[2026-1] Machine Learning Term Project의 소스 코드와 산출물을 포함합니다.
 
 단백질 3D 구조의 결함 여부를 이진 분류하는 머신러닝 파이프라인을 강의 범위 내 알고리즘
 (Logistic Regression / Random Forest / AdaBoost / XGBoost / SVM-RBF + PCA)만으로 구현하고,
@@ -59,7 +59,7 @@ pip install -r requirements.txt
    ```
 
    다운로드한 .tar.gz를 `data/raw/`에 풀면 위 경로가 자동 생성된다.
-   본 보고서는 라벨링 가능한 4개 타겟만 사용한다.
+   본 보고서는 라벨링 가능한 4개 타겟만 사용한다. => 이 부분은 data 파일에 넣어놓음, 2번부터 진행
 
 2. **특징 추출** — PDB → CSV
    ```
@@ -99,5 +99,5 @@ pip install -r requirements.txt
 
 ## AI Tool Disclosure
 
-본 프로젝트의 보고서 정비·코드 검토 과정에서 Anthropic Claude (Claude Opus 4.7 via Claude Code CLI)를 사용했습니다.
-사용 범위와 사용자 직접 작업의 구분은  **부록 A. AI 사용 투명성**에 명시되어 있습니다.
+이번 프로젝트의 보고서 정비·코드 검토 과정에서 Anthropic Claude를 사용했습니다.
+사용 범위와 사용자 직접 작업의 구분은 보고서 **부록 A. AI 사용 **에 적혀있습니다.
